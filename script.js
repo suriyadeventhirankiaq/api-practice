@@ -1,4 +1,4 @@
-// GET
+
 async function getStudent() {
 
     let response = await fetch("https://jsonplaceholder.typicode.com/users/1");
@@ -12,7 +12,6 @@ async function getStudent() {
 }
 
 
-// POST
 async function postStudent() {
 
     let response = await fetch("https://jsonplaceholder.typicode.com/users", {
